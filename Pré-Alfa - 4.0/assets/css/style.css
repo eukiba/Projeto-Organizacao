@@ -1,0 +1,169 @@
+@font-face {
+    font-family: 'Keyes';
+    src:url('/assets/fonts/Keyes.ttf.woff') format('woff'),
+        url('/assets/fonts/Keyes.ttf.svg') format('svg'),
+        url('Keyes.ttf.eot'),
+        url('Keyes.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+h1{
+    font-family: 'Keyes';
+    font-size: 3em;
+    color: rgb(255, 255, 255); 
+    
+}
+body{
+    margin: auto;
+    padding: 0;
+    height: 650px;
+    text-align: center;
+    color:#fffffffb
+}
+#inicio{
+    max-width:550px;
+    margin: auto ;
+    height: 610px;
+    padding: 10px ;
+    box-shadow: 2px 2px 10px #000000;
+    border-radius: 7px;
+    background-color: #0000007c;
+}
+::placeholder{
+    color: #f7f4f4;
+}
+input,.butt{
+    color: #fdeded;
+    /*background-color: #000000;*/
+    background-color: rgba(134, 128, 128, 0.781);
+    display: block;
+    width: 180px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    height: 40px;
+    padding: 0 23px;
+}
+input:hover,.butt:hover,
+input:focus,.butt:focus{
+    background: #0000;
+}
+.butt{
+    background: rgba(134, 128, 128, 0.781);
+}
+.butt:hover,#menu:hover{
+    cursor: pointer;
+}
+.paragrafo-resultado,.bad {
+    font-family: 'Keyes', Helvetica, sans-serif;
+    font-size: 25px;
+    margin: auto;
+    padding:25px 95px;
+    color: #070707;
+    text-align: center;
+    background-color: #1cdf3d8e;
+    width: 360px;
+    border-radius: 4px;
+}
+.bad{
+    font-family: 'Keyes', Helvetica, sans-serif;
+    font-size: 25px;
+    margin: auto;
+    padding: 10px 95px;
+    color: #1b1313;
+    text-align: center;
+    background-color: #fd2b2be3;
+    width: 360px;
+    border-radius: 4px;
+}
+#copy{
+    color: rgb(10, 9, 44);
+    font: bold 20px 'Keyes';
+}
+#menu{
+    width: 13px;
+    height: 10px;
+    padding: 10px 27px 24px 27px;
+    border-radius: 5px;
+    margin: 15px 0px 0px 10px; 
+}
+h1,#menu{
+    display: inline
+}
+
+
+
+#nextPage {
+    max-width:550px;
+    margin: auto ;
+    height: 610px;
+    padding: 10px ;
+    box-shadow: 2px 2px 10px #000000;
+    border-radius: 7px;
+    background-color: #0000007c;
+}
+#p{
+    color: #fdeded;
+    /*background-color: #000000;*/
+    background-color: rgba(134, 128, 128, 0.781);
+    display: inline-flex;
+    width: 180px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    height: 40px;
+    padding: 0 23px;
+}
+#botao{
+    color: #fdeded;
+    /*background-color: #000000;*/
+    background-color: rgba(134, 128, 128, 0.781);
+    display: inline-flex;
+    width: 115px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    height: 40px;
+    padding: 0 23px;
+}
+#butt { /* botão pesquisar*/
+    display: inline-flex;
+    width: 10px;
+    height: 34px;
+    border-radius: 10px;
+    margin: 8px;
+    background-color: rgba(134, 128, 128, 0.781);
+    border-bottom: 5px;
+}
+#butt:hover{ /* botão pesquisar*/
+    background: rgba(233, 224, 224, 0.521);
+    cursor: pointer;
+}
+#botao:hover{
+    cursor: pointer;
+    background: #0000;
+}
+#p:focus,#p:hover{
+    background: #0000;
+}
+#histo{
+    width: 550px;
+    height: 535px;
+    background: rgb(17, 16, 16);
+    border-radius: 5px;
+    font: bold 20px 'Keyes';
+    text-align: center;
+}
+
+
+
+
+    
+    
+
+    
+    
+    

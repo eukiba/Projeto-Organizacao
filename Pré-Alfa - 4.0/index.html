@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/script.js"></script>
+</head>
+
+<body style="background-image: url(assets/img/aki.jpg);">
+    <h1>Cadastro novo cell</h1>
+    <div id="menu"></div>
+
+    <div id="inicio" onmouseleave="out()">
+        <input onkeyup="letrasMaiusculas('input-1')" required class="inp_editar" type="text" id="input-1"
+            placeholder="Nome e sobrenome">
+        <input type="text" id="phone" placeholder="Numero do cliente" onkeypress="mask(this, cell);">
+        <input onkeyup="letrasMaiusculas('input-2')" required class="inp_editar" type="text" id="input-2"
+            placeholder="Marca do aparelho">
+        <input onkeyup="letrasMaiusculas('input-3')" required class="inp_editar" type="text" id="input-3"
+            placeholder="Modelo do aparelho">
+        <input onkeyup="letrasMaiusculas('input-4')" required class="inp_editar" type="text" id="input-4"
+            placeholder="Qual é o defeito">
+        <input onkeyup="letrasMaiusculas('input-5')" required class="inp_editar" type="text" id="input-5"
+            placeholder="Quem pode buscar">
+        <input onkeyup="letrasMaiusculas('input-6')" required class="inp_editar" type="text" id="input-6"
+            placeholder="Valor combinado">
+        <input onkeyup="letrasMaiusculas('input-7')" required class="inp_editar" type="text" id="input-7"
+            placeholder="Prazo de manutenção">
+        <input onkeyup="letrasMaiusculas('input-8')" required class="inp_editar" type="text" id="input-8"
+            placeholder="Nome do colaborador">
+        <input type="button" value="Cadastrar" class="butt" onclick="cadastro()">
+        <div id="res" class="resultado"></div>
+
+    </div>
+
+
+    
+
+    <div id="nextPage" hidden="true">
+        <input type="number" id="p" ><input type="button" value=" " style="background-image: url(assets/img/1617460.png) " id="butt" onclick="pesquisar()">
+        <input type="button" value="Historico" id="botao" onclick="historico()">
+        
+        <div id="histo">
+        </div>
+
+    </div>
+    <footer>
+        <p id="copy">&copy; RenatoNuno</p>
+    </footer>
+</body>
+
+</html>
