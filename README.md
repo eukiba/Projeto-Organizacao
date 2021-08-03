@@ -2,4 +2,4 @@
 
 Em breve versão beta com banco de dados em hospedagem remota !!!
 
-<img src=https://github.com/eukiba/img/blob/main/descktop.gif height="800" whidt="450">
+<img src=https://github.com/eukiba/img/blob/main/descktop.gif height="650" whidt="450">
